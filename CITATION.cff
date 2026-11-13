@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Digital to Wave 2 unified: Fourier duality unifies the Abbe and de Broglie falsifications of Part II"
+type: software
+authors:
+  - family-names: "Brisson"
+    given-names: "Jean-François"
+    orcid: "https://orcid.org/0009-0000-9778-5374"
+    affiliation: "Spark AI NLP, Fredericton, New Brunswick, Canada"
+version: 0.1.0
+date-released: "2026-11-13"
+license: AGPL-3.0-only
+repository-code: "https://github.com/sparkainlp-x/digital-to-wave-2-unified"
+url: "https://sparkainlpx.xyz"
+abstract: >-
+  SYNTHETIC unified verdict for the claims in Mun Seok Lee's preprint
+  "Digital to Wave: LGD In Situ Wave Memory-Human Wave Integrated
+  Interface-Metaverse Hologram- Wave Affective AI" (Part II). It
+  applies Fourier duality to unify two falsifications: the Abbe
+  diffraction limit on the THz readout (best case 301 MB readable
+  vs 79.6 ZB claimed, short by 2.65 x 10^14) and the relativistic de
+  Broglie wavelength on the matter-wave hologram (70 kg at 370 km/s:
+  lambda = 2.56 x 10^-41 m, 1.17 x 10^37 times shorter than the 1 THz
+  wavelength; most generous case short by 1.68 x 10^19). The joint
+  bound counts the lattice sites satisfying both at once: zero, for
+  every macroscopic mass and THz frequency. The FAIL is shown robust
+  to bounded analog calibration (0.0223 orders) and to input noise
+  (Omega-Genesis spooky correlation 0.99999995, verdict stable 5/5).
+  A benefits manifest and a reusable template (claim, Abbe, de
+  Broglie, joint, bounded calibration, noisy-copy spooky, verdict)
+  are included for testing other wave-memory claims. No physical,
+  biological or safety claim is made. The preprint's author has not
+  reviewed or endorsed this software. DOI pending (no Zenodo record
+  yet).
+keywords:
+  - synthetic-data
+  - engineering validity
+  - Fourier duality
+  - Abbe limit
+  - de Broglie
+  - terahertz
+  - hologram
+  - reproducibility
+  - negative results
+  - scientific-software
+  - Digital to Wave
+references:
+  - type: article
+    status: preprint
+    title: "Digital to Wave: LGD In Situ Wave Memory-Human Wave Integrated Interface-Metaverse Hologram- Wave Affective AI"
+    authors:
+      - family-names: "Lee"
+        given-names: "Mun Seok"
+    doi: "10.5281/zenodo.21947108"
+    year: 2026

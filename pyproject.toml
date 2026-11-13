@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "digital-to-wave-2-unified"
+version = "0.1.0"
+description = "Unified verdict for the claims in Mun Seok Lee's 'Digital to Wave' Part II: Fourier duality unifies the Abbe diffraction bound (301 MB vs 79.6 ZB) and the de Broglie matter-wave bound (lambda 1e37x too short) into one joint bound (0 sites), with analog calibration (0.0223 orders) and spooky stability (0.99999995) as robustness proofs; SYNTHETIC, no physical, biological or safety claim"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE"]
+authors = [{ name = "Jean-François Brisson" }]
+keywords = ["synthetic-data", "engineering-validity", "fourier-duality", "abbe-limit", "de-broglie", "terahertz", "hologram", "reproducibility", "negative-results", "digital-to-wave", "spooky"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+]
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.urls]
+Repository = "https://github.com/sparkainlp-x/digital-to-wave-2-unified"
+
+[tool.setuptools]
+py-modules = ["fourier_duality", "unified_verdict"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
